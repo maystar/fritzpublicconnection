@@ -1,4 +1,4 @@
-FROM python:3.13.6-slim
+FROM python:3.13.7-slim
 
 RUN pip install fritzconnection
 COPY GetPublicIpAddress.py /GetPublicIpAddress.py
